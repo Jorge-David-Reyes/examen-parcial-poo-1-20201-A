@@ -1,11 +1,12 @@
 package com.oop.exam;
 
 import com.oop.exam.model.Movie;
-import com.oop.exam.model.MovieManager;
 import com.oop.exam.model.MovieScore;
 import com.oop.exam.model.Platform;
 import com.oop.exam.model.Review;
 import com.oop.exam.model.User;
+
+import com.oop.exam.service.MovieManager;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -123,7 +124,6 @@ public class Main {
         avengersEndGame.setSynopsis("After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.");
 
         movieManager.addMovie(avengersEndGame);
-
 
     }
 }

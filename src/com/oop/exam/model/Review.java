@@ -17,8 +17,5 @@ public class Review {
 		return moviereview;
 	}
 
-	public Object getUser() {
-		return user;
-	}
 
 }

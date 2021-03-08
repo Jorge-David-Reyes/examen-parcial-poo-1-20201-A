@@ -1,4 +1,4 @@
-package com.oop.exam.model;
+package com.oop.exam.service;
 import java.util.ArrayList;
 import java.util.List;
 import com.oop.exam.model.Movie;
@@ -28,10 +28,11 @@ public class MovieManager {
 				return null;
 			}
 		}
+		return head;
 	}
 
-	public void addMovie(Movie avengersEndGame) {
-
+	public void addMovie(Movie movie) {
+		movies.add(movie);
 	}
 
 

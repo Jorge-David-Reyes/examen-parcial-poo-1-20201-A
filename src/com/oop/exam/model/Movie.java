@@ -1,13 +1,15 @@
 package com.oop.exam.model;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+
 
 public class Movie {
 	private String title;
 	private int year;
 	private String sipnosis;
-	private ArrayList <String> actors;
-	private ArrayList <Platform> platforms;
+	private ArrayList<String> actors;
+	private ArrayList<Platform> platforms;
 	private ArrayList <Review> reviews;
 	private String Director;
 
@@ -55,8 +57,8 @@ public class Movie {
 		platforms= (ArrayList<Platform>) PlatformList;
 	}
 
-	public void setActors(List<String> actoresList) {
-		actors= (ArrayList<String>) actoresList;
+	public void setActors(List<String> asList) {
+		actors= (ArrayList<String>) asList;
 	}
 
 }
